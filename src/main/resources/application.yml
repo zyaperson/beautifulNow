@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /zyperson
+    encoding:
+      charset: utf-8
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zyaperson?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone = GMT
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
